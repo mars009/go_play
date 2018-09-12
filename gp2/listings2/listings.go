@@ -1,4 +1,4 @@
-package listings
+package listings2
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 const marsDays = 687
 const weightInMars = .3783
 const lightSpeed = 299792 //km/s
-const hoursPerDay = 23
+const hoursPerDay = 24
 
 // PrintAgeAndWeightInMars prints the weight and age of a person based on given params
 func PrintAgeAndWeightInMars(age int, weight float32) {
